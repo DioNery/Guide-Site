@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guide</title>   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="../Guide - site/css/estilo.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </head>
+    <body>
+      <nav  id="navbar">
+            <img src="../Guide - site/img/LogomarcaGuide.png" id="logomarca">
+            <input  id="areadePesquisa" type="search" placeholder="Pesquise aqui..." aria-label="Search">
+            <button   id="botaoPesquisar"  type="submit">Pesquisar</button>
+              <img src="img/setaprabaixo.png " id="seta" type="button" onclick="myFunction()" class="dropButton" >
+            <div id="meuDrop" class="dropMenu"> 
+              <a href="home.html">Home</a>
+              <a href="sobre1.html">Sobre</a>
+              <a href="ajuda.html">Ajuda</a>
+            </div>
+            <img src="../Guide - site/img/fotodePerfil.webp" id="fotodeperfil"  type="button" onclick="myFunction2()" class="dropButton2">
+            <button type="button" onclick="myFunction2()" class="dropButton2">Fulano</button>
+            <div id="meuDrop2" class="dropMenu2" >
+                <a href="home2.html"><img src="../Guide - site/img/fotodeperfil2.jpg" id="fotodeperfilsecundarios">Cicrano</a>
+                <a href="home3.html"><img src="../Guide - site/img/fotodeperfil3.jpg" id="fotodeperfilsecundarios">Beltrano</a>
+                <a href="home4.html"><img src="../Guide - site/img/fotodeperfil4.jpg" id="fotodeperfilsecundarios">Pedrano</a>
+                <a href="perfilnovo.html"><button id="botaoaddperfil">Adicionar perfil</button></a>
+              </div>
+      </nav>
+       <div id="divdosforms">
+        <form id="formsGuide">
+          <img src="img/medalhadebronze.png" id="medalhadeBronze" >
+          <p id="texto">Acesso a conteúdo gratuito por    7 dias</p>
+          <p id="texto">Monitorias</p>
+          <p id="texto">Chat com o mentor</p>
+          <button id="botaoform">Adquirido</button>
+        </form>
+        <form id="formsGuide">
+          <img src="img/medalhadeprata.png" id="medalhadePrata" >
+          <p id="texto">Plano Medium de até 3 meses contém : </p>
+          <p id="texto">Monitorias especiais!</p>
+          <p id="texto">Atendimento preferencial com o mentor.</p>
+          <button id="botaoform2" type="button" onclick=" mudarParaMedium()" >Assine agora!</button>
+        </form>
+        <form id="formsGuide">
+          <img src="img/medadalhadeOuro.png" id="medalhadeOuro" >
+          <p id="texto">Plano Premium de até 7 meses contém :</p>
+          <p id="texto">Monitorias VIP!!!</p>
+          <p id="texto">Direito a Agendamentos de encontros e Baixar materiais práticos dos mentores.</p>
+          <button id="botaoform3" type="button" onclick=" mudarParaPremium()">Assine agora!</button>
+        </form>
+    </div>
+   </body>
+</html>
